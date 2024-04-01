@@ -21,7 +21,7 @@ from os.path import abspath, dirname, join
 
 from setuptools import find_packages, setup
 
-package_name = "elasticsearch"
+package_name = "old_es"
 base_dir = abspath(dirname(__file__))
 
 with open(join(base_dir, package_name, "_version.py")) as f:
